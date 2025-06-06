@@ -1,0 +1,23 @@
+body {
+  background: 
+    url('images.jpg') no-repeat fixed;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: center;
+}
+
+@media (max-width: 640px) {
+  html, body {
+    overflow-x: hidden;
+    scrollbar-width: none; /* Firefox */
+  }
+  body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+}
+
